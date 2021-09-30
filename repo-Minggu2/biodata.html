@@ -5,127 +5,226 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BIODATA</title>
     <style>
-    section{
-        padding: 10em 0;
-    }
+
     body{
     font-family: serif;
     overflow-x: hidden;
     }
-    .judul{
+    h1{
+        margin:  auto;
+        text-align: center;
+        color: rgb(250, 253, 250);
+        font-size: 2.5em;
+    }
+    h2{
+        margin:  auto;
+        text-align: center;
+        color: rgb(226, 255, 226);
+        font-size: 2.5em;
+    }
+    h3{
+        margin:  auto;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 2.5em;
+    }
+    p{
+        margin:  auto;
+        text-align: center;
+        color: rgb(250, 253, 250);
+        font-size: 1.5em;
+    }
+    header{
         font-family: serif;
-        font-size: 3em;
+        font-size: 1.3em;
         color: rgb(255, 255, 255);
         background-image: url("Picture2.jpg");
         background-repeat: no-repeat;
         background-size: cover;
-        padding: 10px;
+        padding: 5px;
         text-align: center;
-        margin-bottom: 50px;
+        margin-bottom: 40px;
     }
-    p{
-        font-family: serif;
-        color: rgb(225, 236, 226);
-        margin-top: -1.5em;
-        
-    }
-    .banner{
+    .background{
         background-image: url("Picture1.jpg");
         background-size: cover;
         background-repeat: no-repeat;
         position: relative;
     }
-    .top-banner{
-        background-color:  rgba(0, 0, 0, 0.507);
-    }
-    .top-banner h3{
-        width: 50%;
-        margin: 0 auto;
-        text-align: center;
-        color: rgb(250, 253, 250);
-        font-size: 5em;
-        margin-top: -2em;
-        margin-bottom: 1em;
-    }
-
-    .under-topbanner{
-        color: rgb(204, 204, 204);
-        justify-content: center;
-        display: flex;
-    }
-    .foto{
+    .top-background{
+        background-color:  rgba(0, 0, 0, 0.418);
         padding: 20px;
     }
-    .tabell{
-        margin-top: 2.5em;
-        font-size: 35px;
+    .biodata{
+        background-color: rgba(241, 241, 241, 0.493);
+        border-radius: 10px;
     }
-
+    .foto{
+        padding: 2em;
+    }
+    article{
+        background-color: rgba(241, 241, 241, 0.493);
+        margin-top: 2em;
+        border-radius: 10px;
+    }
+    table{
+        padding: 60px;
+        font-size: 20px;
+        justify-content: center;
+        justify-items: center;
+        display: flex;
+        margin-top: -30px;
+    }
+    tr{
+        border: 5px rgb(109, 100, 100);
+    }
+    th{
+        background-color: rgba(64, 92, 28, 0.788);
+        color: rgb(231, 236, 231);
+        padding: 8px 15px;
+    }
+    article td{
+        padding: 10px 40px;
+    }
+    footer{
+        background-color: rgba(57, 58, 56, 0.788);
+        color: rgb(223, 222, 222);
+        text-align: center;
+        font-size: .8em;
+        font-style: italic;
+    }
     </style>
 </head>
 
 <body>
 <!--HEADER-->
     <header>
-        <div class="judul">
-          <h1> HELLO !!!</h1>
-          <p>Selamat Datang</p>
-        </div>
+      <h1> HELLO !!!</h1>
+      <p>Selamat Datang</p>
     </header>
-
-    <div class="banner">
-        <section class="top-banner">
-          <h3>BIODATA</h3>
-          <div class="under-topbanner">
-                <div class="foto">
-                    <img src="IMG_20210906_194604.JPG" alt=""width="300" height="auto">
-                </div>
-
-                <div class="tabell">
+    <div class="background">
+        <div class="top-background">
+            <!--Section-->
+            <section>
+                <div class="biodata">
                     <table>
-                    <tr>
-                        <td> Nama</td>
-                        <td>:</td>
-                        <td> Ratih Kumala </td>
-                    </tr>
-                    <tr>
-                        <td>NIM</td>
-                        <td>:</td>
-                        <td>A11.2020.12520</td>
-                    </tr>
-                    <tr>
-                        <td>Kelas</td>
-                        <td>:</td>
-                        <td>4302</td>
-                    </tr>
-
-                    <tr>
-                        <td>Gender</td>
-                        <td>:</td>
-                        <td>Perempuan</td>
-                    </tr>
-                    
-                    <tr> 
-                        <td> Alamat </td>
-                        <td>:</td>
-                        <td> Lingkungan Kuripan Timur RT/RW 01/09, Kuripan, Purwodadi, Grobogan</td>
-                    </tr>
-                    
-                    <tr>
-                        <td>Hobby</td>
-                        <td>:</td>
-                        <td> Memasak </td>
-                    </tr>
-
-                    <tr> 
-                        <td> Cita-cita </td>
-                        <td>:</td>
-                        <td> Menjadi Orang Kaya</td>
-                    </tr>
+                        <h2>Biodata Mahasiswa</h2>
+                        <p>Universitas Dian Nuswantoro</p>
+                        <hr color="darkgreen" width="900px">
+                        <tr>
+                            <td rowspan="8" class="foto"><img src="IMG_20210906_194604.JPG" alt=""width="200" height="auto"></td>
+                            <td> Nama</td>
+                            <td>:</td>
+                            <td> Ratih Kumala </td>
+                        </tr>
+                        <tr>
+                            <td>NIM</td>
+                            <td>:</td>
+                            <td>A11.2020.12520</td>
+                        </tr>
+                        <tr>
+                            <td>Dosen Wali</td>
+                            <td>:</td>
+                            <td>Abu Salam, M.Kom</td>
+                        </tr>    
+                        <tr>
+                            <td>Status</td>
+                            <td>:</td>
+                            <td>Aktif</td>
+                        </tr>            
+                            <tr> 
+                            <td> Alamat </td>
+                            <td>:</td>
+                            <td> Lingkungan Kuripan Timur RT/RW 01/09, Kuripan, Purwodadi, Grobogan</td>
+                        </tr>        
+                        <tr>
+                            <td>No.HP</td>
+                            <td>:</td>
+                            <td> 0895375601250 </td>
+                        </tr>
+                        <tr> 
+                            <td>Email</td>
+                            <td>:</td>
+                            <td> 111202012520@mhs.dinus.ac.id</td>
+                        </tr>
                     </table>
-                </div>
-            </div>
-        </section>
+                </div>   
+            </section>
+            <!--Article-->
+            <article>
+                <table rules="all">
+                    <h3>Jadwal KRS</h3>
+                    <tr>
+                        <th>No</th>
+                        <th>Kode Mata Kuliah</th>
+                        <th>Kelompok</th>
+                        <th>Mata Kuliah</th>
+                        <th>SKS</th>
+                        <th>Status</th>
+                    </tr>
+                    <tr>
+                        <td>1. </td>
+                        <td>A11.5410</td>
+                        <td>A11.4314</td>
+                        <td>Kalkulus 1</td>
+                        <td>4</td>
+                        <td>B</td>
+                    </tr>
+                    <tr>
+                        <td>2. </td>
+                        <td>A11.54102</td>
+                        <td>A11.4314</td>
+                        <td>Fisika 2</td>
+                        <td>4</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>3. </td>
+                        <td>A11.54103</td>
+                        <td>A11.4314</td>
+                        <td>Dasar Pemrograman</td>
+                        <td>4</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>4. </td>
+                        <td>A11.54104</td>
+                        <td>A11.4314</td>
+                        <td>Dasar Dasar Pemrograman </td>
+                        <td>4</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>5. </td>
+                        <td>A11.54105</td>
+                        <td>A11.4314</td>
+                        <td>Bahsa Inggris</td>
+                        <td>2</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>6. </td>
+                        <td>A11.54106</td>
+                        <td>A11.4314</td>
+                        <td>Pengatar Teknologi</td>
+                        <td>4</td>
+                        <td>A</td>
+                    </tr>
+                    <tr>
+                        <td>7. </td>
+                        <td>A11.54103</td>
+                        <td>A11.4314</td>
+                        <td>Pendidigan Agama</td>
+                        <td>2</td>
+                        <td>A</td>
+                    </tr>
+                </table>
+            </article>
+        </div>
     </div>
+<!--Footer-->
+    <footer>
+        @_ratihkumala_
+    </footer>
 </body>
-</html>
+</html> 
