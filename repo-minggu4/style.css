@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: serif;
+    overflow-x: hidden;
+    background-color: rgb(214, 214, 214);
+}
+h1{
+    margin:  auto;
+    text-align: center;
+    color: rgb(250, 253, 250);
+    font-size: 2.5em;
+}
+h3{
+    margin:  auto;
+    text-align: center;
+    color: rgb(1, 38, 73);
+    font-size: 2.5em;
+}
+p{
+    margin:  auto;
+    text-align: center;
+    color: rgb(1, 38, 73);
+    font-size: 1.5em;
+}
+header{
+    background-image: linear-gradient(to right, rgb(5, 16, 68),rgb(1, 38, 73), rgb(5, 16, 68));
+    font-family: cursive;
+    font-style: oblique;
+    font-weight: bold;
+    font-size: 3.5em;
+    color: rgb(255, 255, 255);
+    padding: 25px;
+    text-align: center;
+}
+article{
+    background-color: white;
+    margin: 10px 60px;
+    padding: 20px;
+    justify-content: center;
+}
+section{
+    justify-content: center;
+}
+aside{
+    background-color: white;
+    height: 50%;
+    margin-left: -2em;
+    margin-top: .6em;
+}
+.container{
+    padding: 20px;
+}
+/*NAVBAR*/
+nav{
+    display: flex;
+    background-image: linear-gradient(to right, rgb(2, 11, 54),rgb(1, 38, 73), rgb(39, 110, 243));
+    justify-content: center;
+}
+.logo a{
+    text-decoration: none;
+    color: white;
+    font-family: cursive;
+    font-size: 25px;
+    margin-right: 25em;
+    text-shadow: 2px 2px 4px rgb(0, 174, 255);
+}
+nav ul{
+    display: flex;
+    list-style: none;
+}
+nav ul li a{
+    float: right;
+    display: block;
+    font-family: cursive;
+    text-align: right;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    padding: 10px 30px;
+    margin-right: -8px;
+}nav ul li a:hover{
+    background-color: white;
+    color: rgb(39, 110, 243);
+}
+.active{
+    background-color: white;
+    color: rgb(39, 110, 243);
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+/*Biodata*/
+section h2{
+    margin:  auto;
+    text-align: center;
+    color: rgb(1, 38, 73);
+    font-size: 1.8em;
+}
+.foto{
+    padding: 1.5em;
+}
+.biodata td{
+    font-size: 1em;
+}
+/*ARTICLE SCHEDULE*/
+.schedule table{
+    padding: 60px;
+    font-size: 15px;
+    justify-content: center;
+    justify-items: center;
+    display: flex;
+    margin-top: -30px;
+}
+.schedule table th{
+    background-color: rgb(39, 110, 243);
+    color: rgb(231, 236, 231);
+    padding: 10px;
+}
+.schedule table tr{
+    border: 5px rgb(109, 100, 100);
+}
+.schedule table tr td{
+    font-size: 1em;
+}
+.schedule td{
+    padding: 10px 25px;
+}
+/*Form*/
+.form h2{
+    font-size: 2em;
+}
+form table{
+    padding: 40px;
+    font-size: 15px;
+    display: flex;
+    margin-top: -60px;
+}
+form table tr {
+    font-size: 1em;
+}
+form table th p{
+    width: 10em;
+    display: flex;
+    color: rgb(2, 60, 168);
+    margin-top: 1em;
+}
+input{
+    width: 50em;
+}
+.send{
+    width: 10em ;
+    padding: 10px;
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-color: rgba(7, 81, 218, 0.973);
+    border-color: rgb(7, 81, 218, 0.719);
+    color: white;
+}
+fieldset{
+    border-color: rgb(39, 110, 243);
+}
+/*ASIDE*/
+.song{
+    color: white;
+    background-color: rgb(39, 110, 243);
+    padding: 7px;
+    margin-bottom: 10px;
+}
+.keterangan{
+    font-size: 1.2em;
+    color: black;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-style: oblique;
+}
+.plug-ins{
+    margin-top: 20px;
+    background-color: rgb(39, 110, 243);
+    color: white;
+    padding: 7px;
+}
+/* VIDEO*/
+.video{
+    justify-content:space-evenly;
+    padding: 40px;
+}
+video{
+    width: 400px;
+    height: auto;
+    margin-top: 30px;
+}
+/*FOOTER*/
+footer{
+    background-color: rgb(2, 11, 54);
+    color: rgb(223, 222, 222);
+    text-align: center;
+    font-size: .8em;
+    font-style: italic;
+}
