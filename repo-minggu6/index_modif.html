@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Project Pemrograman Websiteku</title>
+    <style>
+        body{
+            font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        h1{
+            text-align: center;
+            margin-top: 5em; 
+            margin-bottom: -.5em;
+        }
+        h2{
+            font-size: 1.5em;
+        }
+        nav{
+            display: flex;
+            background-color: rgba(0, 0, 0, 0.623);
+            justify-content: right;
+        }
+        nav a{
+            float: right;
+            display: block;
+            text-align: right;
+            text-decoration: none;
+            font-size: 1em;
+            color: white;
+            padding: 10px 30px;
+            margin-right: -8px;
+            font-weight: bold;
+        }
+        header{
+            width: 100%;
+            height: 500px;
+            background-image: url(IMG/planet-gf4159e956_1920.jpg);
+            background-repeat: no-repeat;
+            color: white;
+            background-size: cover;
+        }
+        section{
+            justify-content: center;
+        }
+        article{
+            background-color: white;
+            justify-content: center;
+        }
+        .top-header{
+            background-color: rgba(0, 0, 0, 0.356);
+            height: 500px;
+        }
+        article h1{
+            margin-top: 10px;
+        }
+        .table{
+            max-width: 600px;
+            margin: 3em auto;
+            text-align: left;
+        }
+        .about-me{
+            margin-top: 4em;
+        }
+        .about-me h1{
+            font-size: 2em;
+            margin-bottom: 2em;
+        }
+        video{
+            margin-left: 25%;    
+            margin-top: 1em;        
+        }
+        .contact-me{
+            display: block;
+            justify-content: space-between;
+            margin-top: 1em;
+            background-color: rgb(48, 81, 132);
+            padding: 60px;
+        }
+        .contact-me h1{
+            font-size: 2em;
+            margin-bottom: 1em;
+            color: white;
+        }
+        .contact-me table{
+            margin-left: 10%;
+            color: white;
+        }
+        input{
+            width: 400px;
+            height: 30px;
+        }
+        textarea{
+            margin-top: 10px;
+            width: 400px;
+            height: 50px;
+        }
+        label{
+            font-size: 1em;
+            color: white;
+        }
+        footer{
+            padding: 5px;
+            font-size: 11px;
+            color: white;
+            background-color: rgb(24,59,113);
+        }
+        .send{
+            width: 10em ;
+            float: right;
+            margin-bottom: 10px;
+            margin-right: 10px;
+            border-radius: 5px;
+            background-color: rgba(196,196,196);
+            border-color: rgb(196,196,196);
+            color: rgb(48,81,132);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-header">
+        <nav>
+            <a href="index.html">Home</a> 
+            <a href="tentang.html">About me</a>
+            <a href="kontak.html">Contact</a> 
+            <a href="cv-name.pdf">Download CV</a>  
+        </nav>
+        <p style="margin-left: 41%; margin-top: 10em; margin-bottom: -10em;">Hallo,</p>
+        <h1>Selamat Datang</h1>
+        <p style="margin-left: 41%;">Seberapa jauh anda mengenal saya</p>
+        </div>
+    </header>
+    <section>
+        <article style="text-align: center; margin-top: 2em;">
+            <img src="IMG/IMG_20210906_194604.JPG" width="180" height="250" />
+            <h1>Ratih Kumala</h1>           
+            <p>(Web Developer)</p>
+            <hr/>
+            <h2>Overview</h2>
+            <p>
+                Hi, saya adalah calon web developer masa depan, saat ini sedang belajar HTML 5.
+            </p>
+            <div class="table" style="max-width: 600px; margin: 3em auto; text-align: left;" >
+                <table border="1" width="100%">
+                    <thead style="text-align: center;">
+                        <tr>
+                            <th>Skill</th>
+                            <th>Pengalaman</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <ul>
+                                    <li>Jaringan</li>
+                                    <li>Microsoft Office</li>
+                                    <li>Android (Beginner)</li>
+                                    <li>HTML (Beginner)</li>
+                                </ul>
+                            </td>
+                            <td>
+                                <ul>
+                                    <li>Pelatihan Mikrotik</li>
+                                    <li>Magang di Solo Radio</li>
+                                    <li>Lomba BAND Tingkat Kabupaten</li>
+                                    <li>Lomba BAND Tingkat SMA/SMK</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </article>
+        <article class="about-me">
+            <h1>Tentang Saya </h1>
+            <p>
+                Hi, saya adalah web developer.
+                Saat ini sedang belajar HTML.
+            </p>
+            <p>
+                Saya masih baru dalam web development, karena itu
+                saya tidak akan pernah berhenti belajar.
+            </p>
+            <p>
+                Saya ingin menguasai bahasa HTML, CSS, dan Javascript.
+                Dalam proses pembelajaran saya selalu mendengarkan musik, mari kita belajar sambil mendengarkan musik.
+            </p>
+            <p>
+            <video controls>
+                <source src="video/videoplayback.mp4" type="video/webm"/>
+            </video>
+            </p>
+        </article>
+        <article class="contact-me">
+            <fieldset>
+                <legend><h1>Kontak Saya </h1><br></legend>
+                <form>
+                    <table>
+                        <tr>
+                            <td><label for="femail">Email</label></td>
+                            <td>:</td>
+                            <td><input type="femail" name="email" placeholder="alamat email anda" ></td>
+                        </tr>
+                        <tr>
+                            <td><label for="message">Message</label></td>
+                            <td>:</td>
+                            <td><textarea name="message" placeholder="Tulis Pesan Anda..."></textarea></td>
+                        </tr>
+                    </table><br><br>
+                <input type="submit" value="Kirim" style="justify-content: right;" class="send"/>
+                </form>
+            </fieldset>
+        </article>
+    </section>
+    <footer style="text-align: center;">
+        <p>Copyright &copy; 2021 Ratih Kumala.</p>
+    </footer>
+</body>
+</html>
