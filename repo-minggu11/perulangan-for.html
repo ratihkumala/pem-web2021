@@ -1,0 +1,25 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Perulangan For</title>
+</head>
+<body>
+    <h1>Tekan "TOMBOL" untuk menampilkan perulangan</h1>
+	<button onclick="perulangan()">TOMBOL</button>	
+	<div id="hasil"></div>
+ 
+	<script>
+		function perulangan() {
+		    var text = "";
+		    var x;
+		    for( nilai = 10; nilai > 0; nilai--){
+                document.write("<p> Nilai " +nilai+"</p>");
+            }
+		    document.getElementById("hasil").innerHTML = text;
+		}
+	</script>	
+</body>
+</html>
