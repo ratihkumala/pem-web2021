@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html ng-app="">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>GoTravel | Pesan</title>
+    <link href="Image/Icon.png" rel="icon">
+    <link rel="stylesheet" href="style/style-pesan.css" type="text/css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style-akomodasi.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="container-sticky-pesan">
+            <nav class="medsos-pesan">
+                <ul class="medsos_1-pesan">
+                    <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                    <li><a href="#"><i class="fas fa-phone-alt">+62-858-789-324-17</i></a></li>
+                </ul>
+                <ul class="medsos_2-pesan">
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                </ul>
+            </nav>
+            <hr color="darkgray">
+            <div class="container-header-pesan">
+                <header> 
+                    <a class="header-brand-pesan" href="#myPage"><img class="logo-pesan" src="Image/Logo.png"></a>
+                    <ul>
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="tips.html">Tips & Review</a> 
+                        <li><a href="loginregister.html">Login|Register</a>
+                    </ul>
+                </header>
+            </div>
+        </div>
+        <div class="container">
+            <section>
+                <div class="container-pesan">
+                    <h1 style="margin:10px;">Data Diri</h1>
+                    <form class="" action="index.html" method="post">
+                        <input required class="input-form laf" type="text" name="" value="" placeholder="Nama Lengkap">
+                        <input required class="input-form laf" type="text" name="" value="" placeholder="Email">
+                        <input required class="input-form laf" type="text" name="" value="" placeholder=" Ketik Ulang Email">
+                        <input required class="input-form laf" type="text" name="" value="" placeholder="Negara Tempat Tinggal">
+                        <input required class="input-form laf" type="number" name="" value="" placeholder="Nomor Telepone">
+                        <div class="pilihan">
+                        <input required class="input-form laf" type="number" name="" value="" placeholder="Jumlah">
+                        <select id="much" name="much">
+                            <option value="Pilih Jumlah" class="pilih"><p>Pilihan...</p></option>
+                            <option value="Solo"><p>Solo</p></option>
+                            <option value="Pasangan"><p>Pasangan</p></option>
+                            <option value="Keluarga"><p>Keluarga</p></option>
+                            <option value="Wisatawan Bisnis"><p>Wisatawan Bisnis</p></option>
+                        </select>
+                        </div>
+                        <textarea class="input-form" cols="5" rows="5" name="comment" placeholder="Catatan" required></textarea>
+                        </textarea>
+                        <div style="overflow-x:auto;">
+                            <label>Pilih Metode Pembayaran</label>
+                            <table border=0 cellpadding="10">
+                                <tr>
+                                    <th><input type="checkbox"  value=""><img src="Image/bni.png" width="60px" height="20px"></th>
+                                    <th><input type="checkbox"  value=""><img src="Image/logo-bca.png" width="60px" height="20px"></th>
+                                    <th><input type="checkbox"  value=""><img src="Image/bri.png" width="60px" height="25px"></th>
+                                    <th><input type="checkbox"  value=""><img src="Image/bjb.png" width="60px" height="30px"></th>
+                                    <th><input type="checkbox"  value=""><img src="Image/bankdki.png" width="60px" height="25px"></th>
+                                    <th><input type="checkbox"  value=""><img src="Image/bankbb.png" width="60px" height="20px"></th>
+                                </tr>
+                                <tr>
+                                    <th><input type="checkbox"  value=""><img src="Image/visa.png" width="60px" height="30px"></th>
+                                    <th><input type="checkbox"  value=""><img src="Image/masterc.png" width="60px" height="30px"></th>
+                                    <th><input type="checkbox"  value=""><img src="Image/paypal.png" width="60px" height="20px"></th>
+                                    <th><input type="checkbox"  value=""><img src="Image/alfa.jpg" width="70px" height="50px"></th>
+                                    <th><input type="checkbox"  value=""><img src="Image/indomaret.png" width="60px" height="20px"></th>
+                                    <th><input type="checkbox"  value=""><img src="Image/gopay.jpg" width="65px" height="40px"></th>
+                                </tr>
+                            </table>
+                        </div>
+                            <button class="btn-form-pay"><a href=""></a> Pay</button>
+                            <button class="btn-form-change" id="myBtn"><a href="index.html"></a> Batal</button>
+                        </form>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+</html>

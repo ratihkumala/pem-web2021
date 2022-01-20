@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal -->
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>GoTravel | Login&Register</title>
+    <link href="Image/Icon.png" rel="icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style-login.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container-sticky">
+        <nav class="medsos">
+            <ul class="medsos_1">
+                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fas fa-phone-alt">+62-858-789-324-17</i></a></li>
+            </ul>
+            <ul class="medsos_2">
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </nav>
+        <hr color="darkgray">
+        <div class="container-header">
+            <header> 
+                <a class="header-brand" href="#myPage"><img class="logo" src="Image/Logo.png"></a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="tips.html">Tips & Review</a> 
+                    <li><a href="loginregister.html" class="active">Login|Register</a>
+                </ul>
+            </header>
+        </div>
+    </div>
+    <div class="cont-wrapper">
+        <div class="wrapper">
+            <div class="title-text">
+                <div class="title login">
+                    Login Form
+                </div>
+                <div class="title signup">
+                    Signup Form
+                </div>
+            </div>
+            <div class="form-container">
+                <div class="slide-controls">
+                    <input type="radio" name="slide" id="login" checked>
+                    <input type="radio" name="slide" id="signup">
+                    <label for="login" class="slide login">Login</label>
+                    <label for="signup" class="slide signup">Signup</label>
+                    <div class="slider-tab"></div>
+                </div>
+                <div class="form-inner">
+                    <form action="#" class="login">
+                        <div class="field">
+                            <input type="text" placeholder="Email Address" required>
+                        </div>
+                        <div class="field">
+                            <input type="password" placeholder="Password" required>
+                        </div>
+                        <div class="field btn">
+                            <div class="btn-layer"></div>
+                            <input type="submit" value="Login">
+                        </div>
+                        <div class="signup-link">
+                            Not a member? <a href="">Signup now</a>
+                        </div>
+                    </form>
+                    <form action="#" class="signup">
+                        <div class="field">
+                            <input type="text" placeholder="Email Address" required>
+                        </div>
+                        <div class="field">
+                            <input type="password" placeholder="Password" required>
+                        </div>
+                        <div class="field">
+                            <input type="password" placeholder="Confirm password" required>
+                        </div>
+                        <div class="field btn">
+                            <div class="btn-layer"></div>
+                            <input type="submit" value="Signup">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        const loginText = document.querySelector(".title-text .login");
+        const loginForm = document.querySelector("form.login");
+        const loginBtn = document.querySelector("label.login");
+        const signupBtn = document.querySelector("label.signup");
+        const signupLink = document.querySelector("form .signup-link a");
+        signupBtn.onclick = (()=>{
+        loginForm.style.marginLeft = "-50%";
+        loginText.style.marginLeft = "-50%";
+        });
+        loginBtn.onclick = (()=>{
+        loginForm.style.marginLeft = "0%";
+        loginText.style.marginLeft = "0%";
+        });
+        signupLink.onclick = (()=>{
+        signupBtn.click();
+        return false;
+        });
+    </script>
+</body>
+</html>

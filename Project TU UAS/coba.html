@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="Image/Icon.png" rel="icon">
+    <title>GoTravel | Pesan</title>
+    <link rel="stylesheet" href="style/style-pesan.css" type="text/css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/style-rekomendasi.css">
+    <link rel="stylesheet" href="style/style-akomodasi.css">
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <div class="container-sticky">
+        <nav class="medsos">
+            <ul class="medsos_1">
+                <li><a href="#"><i class="fas fa-envelope"></i></a></li>
+                <li><a href="#"><i class="fas fa-phone-alt">+62-858-789-324-17</i></a></li>
+            </ul>
+            <ul class="medsos_2">
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+            </ul>
+        </nav>
+        <hr color="darkgray">
+        <div class="container-header">
+            <header> 
+                <a class="header-brand" href="#myPage"><img class="logo" src="Image/Logo.png"></a>
+                <ul>
+                    <li><a href="index.html" class="active">Home<i class="fas fa-caret-down"></i></a>
+                    <ul>
+                        <li><a href="about us.html">About Us</a></li>
+                        <li><a href="community.html">Community</a></li>
+                        <li><a href="contact us.html">Contact Us</a></li>
+                    </ul>
+                    </li>
+                    <li><a href="#">Tips & Review</a> 
+                    <li><a href="loginregister.html">Login|Register</a>
+                </ul>
+            </header>
+        </div>
+    </div>
+    <div class="container">
+        <section>
+            <article class="banner">
+                <div class="text-welcome">
+                    <img class="logo2" src="Image/Logo2.png">
+                    <h1>Selamat Datang Di GoTravel</h1>
+                    <p>Kami siap membantu anda untuk bepergian</p>
+                </div>
+                <div class="search">
+                    <form>
+                        <input type="text" id="search" name="search" placeholder="Cari Disini...">
+                        <input type="submit" value="Cari" class="button">
+                    </form>
+                </div>
+            </article>
+            <div class="container-pesan">
+                <h1 style="margin:10px;">Data Diri</h1>
+                <form class="" action="index.html" method="post">
+                    <input required class="input-form laf" type="text" name="" value="" placeholder="Nama Lengkap">
+                    <input required class="input-form laf" type="text" name="" value="" placeholder="Email">
+                    <input required class="input-form laf" type="text" name="" value="" placeholder=" Ketik Ulang Email">
+                    <input required class="input-form laf" type="text" name="" value="" placeholder="Negara Tempat Tinggal">
+                    <input required class="input-form laf" type="number" name="" value="" placeholder="Nomor Telepone">
+                    <select id="much" name="much">
+                        <option value="Pilih Jumlah"><p>Pilih Jumlah</p></option>
+                        <option value="Solo"><p>Solo</p></option>
+                        <option value="Pasangan"><p>Pasangan</p></option>
+                        <option value="Keluarga"><p>Keluarga</p></option>
+                        <option value="Wisatawan Bisnis"><p>Wisatawan Bisnis</p></option>
+                    </select>
+                    <textarea class="input-form" cols="5" rows="5" name="comment" placeholder="Catatan" required></textarea>
+                    </textarea>
+                    <div style="overflow-x:auto;">
+                        <label>Pilih Metode Pembayaran</label>
+                        <table border=0 cellpadding="10">
+                        <tr>
+                            <th><input type="checkbox"  value=""><img src="Image/bni.png" width="60px" height="20px"></th>
+                            <th><input type="checkbox"  value=""><img src="Image/logo-bca.png" width="60px" height="20px"></th>
+                            <th><input type="checkbox"  value=""><img src="Image/bri.png" width="60px" height="25px"></th>
+                            <th><input type="checkbox"  value=""><img src="Image/bjb.png" width="60px" height="30px"></th>
+                            <th><input type="checkbox"  value=""><img src="Image/bankdki.png" width="60px" height="25px"></th>
+                            <th><input type="checkbox"  value=""><img src="Image/bankbb.png" width="60px" height="20px"></th>
+                        </tr>
+                        <tr>
+                            <th><input type="checkbox"  value=""><img src="Image/visa.png" width="60px" height="30px"></th>
+                            <th><input type="checkbox"  value=""><img src="Image/masterc.png" width="60px" height="30px"></th>
+                            <th><input type="checkbox"  value=""><img src="Image/paypal.png" width="60px" height="20px"></th>
+                            <th><input type="checkbox"  value=""><img src="Image/alfa.jpg" width="70px" height="50px"></th>
+                            <th><input type="checkbox"  value=""><img src="Image/indomaret.png" width="60px" height="20px"></th>
+                            <th><input type="checkbox"  value=""><img src="Image/gopay.jpg" width="65px" height="40px"></th>
+                        </tr>
+                        </table>
+                        </div>
+                    <button class="btn-form-pay"><a href=""></a> Pay</button>
+                    <button class="btn-form-change" id="myBtn"><a href="index.html"></a> Batal</button>
+                </form>
+            </div>
+            <div class="slider">
+                <div class="slides">
+                    <input type="radio" name="radio-btn" id="radio1">
+                    <input type="radio" name="radio-btn" id="radio2">
+                    <input type="radio" name="radio-btn" id="radio3">
+                    <input type="radio" name="radio-btn" id="radio4">
+                    <input type="radio" name="radio-btn" id="radio5">
+                    <div class="slide first">
+                        <img src="Image/Diskon-1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="Image/Diskon-3.jpg" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="Image/Diskon-2.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="Image/Diskon-1.png" alt="">
+                    </div>
+                    <div class="slide">
+                        <img src="Image/Diskon-1.png" alt="">
+                    </div>
+                    <div class="navigation-auto">
+                        <div class="auto-btn1"></div>
+                        <div class="auto-btn2"></div>
+                        <div class="auto-btn3"></div>
+                        <div class="auto-btn4"></div>
+                        <div class="auto-btn5"></div>
+                    </div>
+                </div>
+                <div class="navigation-manual">
+                    <label for="radio1" class="manual-btn"></label>
+                    <label for="radio2" class="manual-btn"></label>
+                    <label for="radio3" class="manual-btn"></label>
+                    <label for="radio4" class="manual-btn"></label>
+                    <label for="radio5" class="manual-btn"></label>
+                </div>
+            </div>
+            <script src="script.js"></script>
+            <h1>Destinasi Populer</h1>
+            <div class="wrapper">
+                <div class="container-img"><img src='Image/icon-9.jpg' class="item"><h2>Bali</h2><p>lebih dari 100 destinasi wisata terkenal</p></div>
+                <div class="container-img"><img src='Image/icon-10.jpg' class="item"><h2>Bangka Belitung</h2><p>lebih dari 20 destinasi wisata terkenal</p></div>
+                <div class="container-img"><img src='Image/icon-11.jpg' class="item"><h2>Aceh</h2><p>lebih dari 100 destinasi wisata terkenal</p></div>
+                <div class="container-img"><img src='Image/icon-12.jpg' class="item"><h2>Sumatra</h2><p>lebih dari 150 destinasi wisata terkenal</p></div>
+                <div class="container-img"><img src='Image/icon-13.jpg' class="item"><h2>Nusa Tenggara Barat</h2><p>lebih dari 100 destinasi wisata terkenal</p></div>
+                <div class="container-img"><img src='Image/icon-14.jpg' class="item"><h2>Nusa Tenggara Timur</h2><p>lebih dari 100 destinasi wisata terkenal</p></div>
+                <div class="container-img"><img src='Image/icon-15.jpg' class="item"><h2>Sulawesi</h2><p>lebih dari 200 destinasi wisata terkenal</p></div>
+                <div class="container-img"><img src='Image/icon-16.jpg' class="item"><h2>Kalimantan</h2><p>lebih dari 200 destinasi wisata terkenal</p></div>
+            </div>
+            <div class="container-whyme">
+                <div class="whyme">
+                    <div class='foto'>
+                        <img src='Image/icon-17.jpg'>
+                        <h3>Harga Termurah</h3>
+                        <p>Traveloka menawarkan harga termurah dibandingkan dengan agen penjualan tiket online pesaingnya. Anda bisa membandingkan harga maskapai favorit Anda dengan membuka website Traveloka.com. Harga termurah ini salah satunya dikarenakan Traveloka tidak membebankan biaya transaksi pada konsumen. Anda hanya diharuskan membayar harga tiket pesawat yang Anda pesan.</p>
+                    </div>
+                    <div class='foto'>
+                        <img src='Image/icon-18.png'>
+                        <h3>Mudah</h3>
+                        <p>Anda bisa melakukan pembelian tiket pesawat dan booking hotel dengan mudah saat ini melalui Traveloka.com. Prosesnya yang mudah dan cepat tentunya akan membuat Anda bisa menghemat lebih banyak waktu dan tenaga. Anda bisa melakukan segala prosesnya dari kantor saat sedang istirahat makan siang atau bahkan di rumah saat sedang bersantai bersama keluarga.</p>
+                    </div>
+                    <div class='foto'>
+                        <img src='Image/icon-19.jpg'>
+                        <h3>Metode Pembayaran Beragam</h3>
+                        <p>Traveloka menyediakan metode pembayaran yang beragam untuk memudahkan konsumen. Anda bisa memilih melakukan pembayaran melalui ATM, Mandiri Clickpay, Kartu Kredit, BCA Klikpay, CIMB Click dan juga Mandiri eCash, dan lain-lain. Anda bisa memilih metode pembayaran termudah menurut Anda.</p>
+                    </div>
+                </div> 
+            </div>
+            <footer>
+                <p>Patner</p>
+                <div class="patner">
+                    <table>
+                        <tr>
+                            <td><img src="Image/patner/1.jpg"></td>
+                            <td><img src="Image/patner/2.png"></td>
+                            <td><img src="Image/patner/3.png"></td>
+                            <td><img src="Image/patner/4.jpg"></td>
+                            <td><img src="Image/patner/5.png"></td>
+                            <td><img src="Image/patner/6.png"></td>
+                        </tr>
+                    </table>
+                </div>
+                <p class="name">&copy; GoTravel | A11.2020.12520 | Ratih Kumala</p>
+            </footer>
+        </section>
+    </div>
+</body>
+</html>
